@@ -24,3 +24,6 @@ name = 'don\'t\nworry about it'
 print(name)
 name = 'dont w\norry about it'
 print(name)
+
+a = "C:\\Users\\shubh\\OneDrive\\Documents\\Custom Office Templates" 
+print(a)
