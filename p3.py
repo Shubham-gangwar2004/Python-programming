@@ -27,3 +27,14 @@ print(name)
 
 a = "C:\\Users\\shubh\\OneDrive\\Documents\\Custom Office Templates" 
 print(a)
+age = 22
+meassage = "i am " + str(age) + " year old"
+print(meassage)
+message = f"i am {age} year old"
+print(meassage)
+
+name = "vipul"
+print(f"first letter of {name} is {name[0]} ")
+
+#this is curly a barce : { print it
+print(f"this is curly a barce : {{")
