@@ -126,8 +126,6 @@ print(message)
 age = 22
 message = ("my age is " + str(age))
 print(message)
-
-
 city = "bareilly"
 temp = 30
 weather_report = "the tempeature  in " + city  + " is " + str(temp) + "degree"
