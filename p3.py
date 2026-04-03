@@ -38,3 +38,8 @@ print(f"first letter of {name} is {name[0]} ")
 
 #this is curly a barce : { print it
 print(f"this is curly a barce : {{")
+
+a = "*"
+print((a * 5 + "\n" ) *6)
+#pytpytthonthon
+print("pyt"*2 + "thon"*2)
