@@ -74,3 +74,48 @@ print(name.find("python"))
 print(name.find(","))
 print(name.find("is", 19))
 print(name.count("python"))
+
+
+
+
+name = "my name is  shubham gangwar and my self shubham"
+print(name.upper())
+print(name.lower())
+print(name.capitalize())
+print(name.title())
+print(name.strip())
+print(name.lstrip())
+print(name.rstrip())
+print(name.find("shubham"))
+print(name.find("shubh"))
+print(name.find("shubham",))
+
+name = "this is the end"
+slice = name[0:10]
+print(slice)
+#print(name.slice[and:2])
+slice = name[0::1]
+print(slice)
+
+
+name = "this is the game"
+slice = name[::-2]
+print(slice)
+
+
+name = "hello wolrd hello hello"
+print(name.replace("hello", "hi", 1))
+print(name.replace("hello", "hi", 2))
+
+li = ['appla', 'banana', 'orange']
+print(",".join(li))
+
+name = "shubh"
+print(f"hello, my name is {name}")
+
+
+name = "hello"
+print("m"+name[1:])
+
+a = "mississippi"
+print(a.count("i"))
