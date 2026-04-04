@@ -43,3 +43,34 @@ a = "*"
 print((a * 5 + "\n" ) *6)
 #pytpytthonthon
 print("pyt"*2 + "thon"*2)
+
+name = "shubham gangwar"
+print(name[3])
+print(name[8])
+print(len(name))
+print(name[-3 : 7])
+print(name[3 : 7])
+
+print(name[::2])
+
+print(name[::-1])
+
+
+name = "shubham gangwar"
+print(name.upper())
+print(name.lower())
+print(name.title())
+print(name.capitalize())
+
+name = "   this is the end     "
+print(name.strip())
+print(name.lstrip())
+print(name.rstrip())
+
+name = "my name is shubh"
+print(name.find("shubh"))
+name = "python is amazing, python is good"
+print(name.find("python"))
+print(name.find(","))
+print(name.find("is", 19))
+print(name.count("python"))
