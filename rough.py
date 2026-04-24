@@ -126,7 +126,57 @@ print(message)
 age = 22
 message = ("my age is " + str(age))
 print(message)
+
 city = "bareilly"
 temp = 30
-weather_report = "the tempeature  in " + city  + " is " + str(temp) + "degree"
-print(weather_report)
+message = "the temperture in " + str(city) + " is " + str(temp) + " degree"
+print(message)
+print(f"the tempereture in {city} is {temp} degree")
+
+
+a = "*"
+print((a*5 +"\n")*5)
+# a = "shubh"
+print("shu"*2 + "bh"*2)
+name = "shubham"
+message = (len(name)<=7)
+print(message)
+# this is curly: {
+print(f"this is curly: {{")
+
+
+b = "python"
+print(b[len(b)-1])
+
+a =" shubham gangwar"
+print(a[::-2])
+a = " my anme is shubh and i am shubh"
+# print(a.find("i",18))
+#print(a[1])
+print(a.count("java"))
+print(a.count("shubh"))
+a = "hello this is me"
+print(a.startswith("hello"))
+print(a.startswith("this"))
+print(a.endswith("me"))
+
+a = "shubh shubh shubh"
+print(a.replace("shubh","tanya",3))
+
+list = ["apple","shubh","hello"]
+print(",".join(list))
+a ="apple,shubh,hello"
+print(a.split(" "))
+name = "shubh"
+age = 13
+# memoryview = "hello my name is {} and i am {} year old".format(name,age)
+print("hello my name is {} and i am {} year old".format(name,age))
+
+name = r"\Users\shubh\OneDrive\Documents\Custom Office Templates"
+print(name)
+
+a = "python programming"
+print(a[::2])
+print(a[::-1])
+text = "mississippi"
+print(text.count("i"))

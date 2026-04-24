@@ -64,3 +64,33 @@
 
 # a = "fwgfebce\niufgfuihr8fh\nfjverifhfui\nvberuifuhfuieg4"
 # print(a)
+
+# a = 0b10000
+# print(type(a))
+# print(a)
+
+# a = 10
+# b = 2
+# print(f"addition: {a+b}")
+# print(f"subtarction {a-b}")
+# print(f"multiplication: {a * b}")
+# print(f"division: {a/b}")
+# print(f"module: {a%b}")
+# print(f"power: {a**b}")
+# print(f"negation of {a} = {-a}")
+# print(f"absolute value of {b} - {a} = {abs(b - a)}" )
+
+
+# a = 10-2**3//2+7
+# print(a)
+
+#bitwise AND
+x = 10
+y = 6
+bitwise_and = x & y
+print(f"{x} & {y} = {bitwise_and}")
+bitwise_or = x | y
+print(f"{x} | {y} = {bitwise_or}")
+
+bitwise_xor = x ^ y
+print(f"{x} ^ {y} = {bitwise_xor}")
